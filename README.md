@@ -1,5 +1,5 @@
 # ViT_Resnet_LSTM_GastricBiopsyCancerDetector
-In this project, for learning purposes, I built and trained four models: a simple CNN model, a ResNet-based CNN model, a Vision Transformer (ViT) model, and an LSTM RNN model. The first three models were trained on gastric data to detect the presence of cancer cells in pathological biopsy sections of the stomach. The fourth model was trained on movie reviews for sentiment analysis. Finally, I created a Flask-based website to deploy three of these models, allowing users to upload images for predictions using the ResNet and ViT models. The LSTM model generates automated responses based on user feedback.
+In this project, for learning purposes, I built and trained four models: a simple CNN model, a ResNet-based CNN model, a Vision Transformer (ViT) model, and an LSTM RNN model. The first three models were trained on gastric data to detect the presence of cancer cells in pathological biopsy sections of the stomach. The fourth model was trained on movie reviews for sentiment analysis. Finally, I created a Flask-based website to deploy three of them, allowing users to upload images for predictions using the ResNet and ViT. The LSTM generates automated responses based on user feedback.
 
 ## Background
 When society ages, cancer becomes more and more common. Early detection of cancer is the key to cancer treatment. Gastroscopy and gastric tissue biopsy are common methods to find gastric cancer. “The number of active pathologists in the U.S. plummeted between 2007 and 2017 by about 17.5% and puts the country at risk of a shortage in the future, though a smaller workforce is currently handling a bigger load of cases.” according to a study published on May 31 in JAMA Network Open. With machine learning techniques to build a cancer cell identification system is a solution to make up for the lack of pathologists and to improve the accuracy of identification.
@@ -20,6 +20,11 @@ Based on ResNet50V2, model 2 has three hidden layers with drop out or BatchNorma
 
 ## Model 3 --- Vision Transformer (ViT) model
 After training, the accuracy of ViT model on test data is 0.71(95% CI:(0.68, 0.74)). AUC is 0.82(95% CI:(0.80, 0.85)).
+
+
+The code for building the models and the training process can be partially seen in the above PowerPoint file:
+[pptx](https://github.com/bd-z/ViT_Resnet_LSTM_GastricBiopsyCancerDetector/blob/main/ViT_Resnet_LSTM_GastricBiopsyCancerDetector.pptx)
+
 
 ## Conclusion
 If the pretraining dataset is small, the ResNet CNN outperforms the ViT.
