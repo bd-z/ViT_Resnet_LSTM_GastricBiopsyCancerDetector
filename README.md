@@ -30,7 +30,7 @@ The code for building the models and the training process can be partially seen 
 If the pretraining dataset is small, the ResNet CNN outperforms the ViT.
 
 ## Web Application
-Inspired by [SkinCheck](https://github.com/leona-ha/Skin-Screening_Web-App) project of Leona, a Web App is developed with Model 2.  
+Inspired by [SkinCheck](https://github.com/leona-ha/Skin-Screening_Web-App) project of Leona, a Web App is developed with Model ResNet CNN, ViT and LSTM.  
 
 ![image](https://github.com/bd-z/Gastric_Biopsy_Cancer_Detector/blob/main/static/asset/web_app.png)
 
